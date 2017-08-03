@@ -1,0 +1,16 @@
+.container {
+	height: 100%;
+}
+
+body { 
+	padding-bottom: 70px; 
+}
+
+.nav navbar-nav navbar-right {
+	display: inline-block !important;
+    margin-left: 30%;
+}
+
+img#me {
+	height:200px;
+}

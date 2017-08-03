@@ -3,26 +3,33 @@
 <head>
 	<title>Melinda Fernandes</title>
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<!-- navigation bar -->
 
-	<nav class="navbar navbar-default">
- 	  	<div class="container-fluid">
-       	<!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-		        <span class="sr-only">Toggle navigation</span>
-		        <!-- <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span> -->
-      		</button>
-      		<a class="navbar-home" href="#">Home</a>
-      		<a class="navbar-about" href="#">About</a>
-      		<a class="navbar-cv" href="#">CV</a>
-      		<a class="navbar-contact" href="#">Contact</a>
-    	</div>
-    </nav>
+	<nav class="navbar navbar-inverse">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span> 
+	      </button>
+	      <a class="navbar-brand" href="#">Melinda</a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="myNavbar">
+	      <ul class="nav navbar-nav navbar-right">
+	        <li class="active"><a href="#">Home</a></li>
+	        <li><a href="#">About</a></li>
+	        <li><a href="#">CV</a></li> 
+	        <li><a href="#">Contact</a></li> 
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+
+
 
 	<main>
 		<div class="jumbotron">
@@ -37,10 +44,15 @@
 				<div class="col-md-6">
 					<p>Interests in tech,...</p>
 					<p>Interests outside of tech...</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</div>
 				<div class="col-md-6">
-					image
-					<img src=""/>
+					<img id="me" src="http://static.boredpanda.com/blog/wp-content/uploads/2016/12/Meet-Zo-the-cat-who-literally-wears-her-heart-on-her-chest-585db8837f1a1__700.jpg"/>
 				</div>
 			</div>
 			
@@ -71,17 +83,27 @@
 			</div>
 		</div>
 
-		<section class="contact">
-			contact
-			background image, text on right side
-		</section>
+		<div class="container">
+			<div class="row">
+				contact
+				background image, text on right side
+			</div>
+		</div>
+		
 	</main>
 
 	<footer>
-		<p>
-			Designed and created by Melinda Fernandes
-		</p>
+		<nav class="navbar navbar-default navbar-fixed-bottom">
+	  		<div class="container">
+	    		<div class="row">
+					<p>
+						Designed and created by Melinda Fernandes
+					</p>
+				</div>
+	  		</div>
+		</nav>
 	</footer>
+
 	
 </body>
 </html>
