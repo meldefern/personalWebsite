@@ -40,8 +40,10 @@ img#me {
 	margin: 0 auto;
 }
 
-.jumbotron#contact {
+#contact {
 	background-color: #212922;
+	width: 10vw;
+	height: 10vh;
 }
 
 /*#footer {
