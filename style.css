@@ -6,6 +6,8 @@ body {
 	/*padding bottom by footer height*/
 	padding-bottom: 60px; 
 	font-size:16px;
+	font-family: 'Josefin Slab', serif;
+
 }
 
 .jumbotron{
@@ -16,9 +18,11 @@ body {
 }
 
 .jumbotron h1 {
-	padding: 100px 100px 100px 0;
+	padding: 100px 10vw 100px 10vw;
 	font-size:15vw;
 	text-shadow: 2px 2px white;
+	font-weight: bold;
+	margin: 0 auto;
 }
 
 .nav navbar-nav navbar-right {
@@ -34,6 +38,10 @@ img#me {
 
 .img-content-box{
 	margin: 0 auto;
+}
+
+.jumbotron#contact {
+	background-color: #212922;
 }
 
 /*#footer {
