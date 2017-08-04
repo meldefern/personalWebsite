@@ -1,11 +1,11 @@
 ### Table of contents
-- [Objectives](#Objectives)
-- [My Website](#My-Website)
-- [The Journey](#The-Journey)
-- [Wireframe](#Wireframe)
-- [Designing the Website](#Designing-the-Website)
-- [Building the HTML Template](#Building-the-HTML-Template)
-- [Bootstrap and CSS](#Bootstrap-and-CSS)
+- [Objectives](#objectives)
+- [My Website](#my-website)
+- [The Journey](#the-journey)
+- [Wireframe](#wireframe)
+- [Designing the Website](#designing-the-website)
+- [Building the HTML Template](#building-the-html-template)
+- [Bootstrap and CSS](#bootstrap-and-css)
 
 ## Objectives
 
@@ -125,3 +125,12 @@ Following what I had learnt, I began my webpage by building a simple HTML templa
 ## Bootstrap and CSS
 The approach that worked best for me when including bootstrap in my code, was to take each section and group it into a div class container with a div class row. Should I want two divs on the same row, I would give each of those divs a col-md-6 class. The most sections I would split my rows into was by 2.
 Other than the containers, rows, and columns, I used bootstrap for my navigation bar, the large jumbotron of the homescreen, and finally the footer. With my bootstrap layout controlling the flow of the page, I needed little CSS, to style the page, only adjusting the font sizes, colors, images, and padding.
+
+An issue I came across when using the bootstrap sticky footer was that the footer sat a fraction up the page, to solve that i added a padding-bottom to the body as shown.
+
+```
+body { 
+	/*padding bottom by footer height*/
+	padding-bottom: 60px; 
+}
+```
